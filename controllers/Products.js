@@ -1,8 +1,9 @@
 const Products = require('../models/Products')
 
 const index = (req, res) => {
-    const products = Products.all()
-    res.json(products)
+    //const products = Products.all()
+    //res.json(products)
+    
 }
 
 const form = (req, res) => {
